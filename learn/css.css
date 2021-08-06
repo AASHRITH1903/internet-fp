@@ -1,0 +1,84 @@
+
+body {
+font-family: Arial, Verdana, sans-serif;
+background-image: url("background.jpg");
+padding: 20px;
+font-size: 20px;
+}
+h1 {
+    color:brown;
+    font-size: 36px;
+    text-align:center;
+}
+.index{
+    color: #6600ff;
+    text-align: left;
+    font-size: 24px;
+}
+h2{
+    color: #6600ff;
+    text-align: left;
+    font-size: 24px;
+}
+img.carbon{
+    width: 600px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.back{
+    width: 600px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.s1,img.s2,img.s3,img.s4{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+img.s5,img.s6,img.s7,img.s8{
+    width: 600px;
+    height: 500px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+img.ecosia{
+    width: 200px;
+    height: 200px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+img.spam{
+    width: 400px;
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.google{
+    width: 600px;
+    height: 400px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.detox{
+    width: 400px;
+    height: 250px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+.end{
+    color: #33ff33;
+    font-size: 48px;
+    text-align: center;
+}
