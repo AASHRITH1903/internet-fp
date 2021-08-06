@@ -1,0 +1,176 @@
+  body {
+  background-image: url('bg.jpg');
+  justify-content: center;
+  align-content: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.total{
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-box {
+  float : left;
+  width : max-content;
+  height : 200px;
+  margin-right: 20px;
+}
+
+.right-box {
+  float : right;
+  width : max-content;
+  height : 200px;
+  margin-left: 20px;
+}
+
+
+.heading {
+  color:  darkslategray;
+  text-align: center;
+}
+
+.main-container {
+  background-color: transparent;
+  height: max-content;
+  width: max-content;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.display {
+  background: transparent;
+  height: max-content;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.display p {
+  color: darkslategray;
+  font-size: xx-large;
+  font-style: normal;
+  size: max-content;
+}
+
+
+#set-limit-button {
+  color: white;
+  width: max-content;
+  height: 50px;
+  background-color: darksalmon;
+  font-weight: bolder;
+  border-color: darkslategray;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#disable-limit-button   {
+  color: white;
+  width: max-content;
+  height: 50px;
+  background-color: red;
+  font-weight: bolder;
+}
+
+.limit-box {
+  background-image: url("limitbackground.jpg");
+  height: 50px;
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border-color: darkblue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+
+/* toggle switch */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 14px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: -2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(26, 177, 26);
+}
+
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+

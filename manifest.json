@@ -1,0 +1,40 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+    "manifest_version":2,
+    "name":"Internet FP",
+    "version":"1.8",
+
+    "content_security_policy": "script-src 'self' https://www.gstatic.com; object-src 'self'",
+    
+    "content_scripts" :[
+        {
+            "matches":[
+                "https://*/*" , "http://*/*"
+            ],
+            "css":["notify.css" , "prettify.css"],
+            "js":["content.js" , "jquery-3.5.1.min.js" , "notify.js" , "prettify.js"]
+        }
+    ],
+    "background":{
+        "scripts":["background.bundle.js"]
+    },
+    "browser_action":{
+     
+        "default_popup":"popup.html",
+        "default_title":"Internet FP"
+        
+    },
+    "permissions":[
+        "history","tabs","notifications","storage"
+    ],
+
+    "icons":{
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+   
+
+}
+
