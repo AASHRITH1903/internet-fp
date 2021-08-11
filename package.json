@@ -6,10 +6,7 @@
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {
-    "jquery": "^3.6.0",
-    "notifyjs": "^3.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "webpack": "^5.50.0",
     "webpack-cli": "^4.7.2"
